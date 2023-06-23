@@ -1,0 +1,76 @@
+/* Seletor universal: a pagina vai abrir da mesma forma em qualquer navegador */
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(200, 224, 176);
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 102, 56);
+    height: 80px;
+}
+
+main{
+    background-color: rgb(225, 233, 220);
+    width: 600px;
+    height: 700px;
+    margin: 0 auto; 
+}
+
+.dados-formulario{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+
+.primeiro-lado div,
+.segundo-lado div{
+    margin-bottom: 20px;
+
+}
+
+.primeiro-lado input, 
+.segundo-lado input{
+    
+}
+
+ .input-text{
+    width: 100%;
+    padding: 5px;
+    background-color: honeydew;
+    border-radius: 5px;
+ }
+
+.primeiro-lado, 
+.segundo-lado{
+
+
+}
+
+.submit{
+    text-align: center;
+
+}
+
+#botao{
+    background-color: rgb(75, 158, 68);
+    color: white;
+    padding: 5px 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+footer{
+    text-align: center;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="calculadora">
+        
+        <div class="input operacao">
+            <div>
+                <spaN>Selecione a operação</spaN>
+            </div>
+            <div>
+                <label for="">Soma</label>
+                <input type="radio" name="operacao" id="soma" checked>
+                <label for="">Subtração</label>
+                <input type="radio" name="operacao" id="sub">
+                <label for="">Multiplicação</label>
+                <input type="radio" name="operacao" id="mult">
+                <label for="">Divisão</label>
+                <input type="radio" name="operacao" id="divisao">
+            </div>
+        </div>
+        <div class="input">
+            <label for="">Numero 1:</label>
+            <input type="number" name="" id="numero1">
+        </div>
+        <div class="input">
+            <label for="">Numero 2:</label>
+            <input type="number" name="" id="numero2">
+        </div>
+        <div class="input">
+            <label for="">Resultado:</label>
+            <input type="text" name="" id="resultado" readonly>
+        </div>
+        <div class="botao">
+            <button onclick="calcular()">Calcular</button>
+        </div>
+    </div>
+    
+</body>
+</html>

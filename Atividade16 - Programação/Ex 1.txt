@@ -1,0 +1,37 @@
+Algoritmo "semnome"
+
+Var
+   nome: caractere
+   n1, n2, n3, media: real
+
+Inicio
+   escreva("Seu nome: ")
+   leia(nome)
+
+   escreva("Nota 1: ")
+   leia(n1)
+
+   escreva("Nota 2: ")
+   leia(n2)
+
+   escreva("Nota 3: ")
+   leia(n3)
+
+   media:= (n1 + n2 + n3)/3
+
+   escreval("Aluno: ", nome)
+   escreval("Média: ", media)
+
+
+   se(media >= 7) entao
+      escreva("Aprovado")
+   senao
+      se(media > 5) e (media < 7) entao
+         escreva("Recuperação")
+      senao
+         se(media <= 5)entao
+            escreva("Reprovado")
+         fimse
+      fimse
+   fimse
+Fimalgoritmo

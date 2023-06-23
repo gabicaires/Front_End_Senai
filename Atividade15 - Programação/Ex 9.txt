@@ -1,0 +1,22 @@
+Exercício 9:
+
+	Algoritmo "semnome"
+
+	Var
+	salario: real
+	vendas, valorbonus, bonus: inteiro
+	
+	Inicio
+      		salario<-500
+		valorbonus<-50
+      		escreva("Seu salario é: ", salario)
+      		escreval()
+
+      		escreva("Informe o número de vendas: ")
+      		leia(vendas)
+      
+      		bonus<- 500 + vendas*valorbonus
+      
+      		escreva("De acordo com suas vendas, seu bonus é de: ", bonus)
+      
+		Fimalgoritmo

@@ -1,0 +1,17 @@
+Exercício 4:
+
+Algoritmo "semnome"
+
+Var
+   a, n1, n2: inteiro
+
+Inicio
+      escreval("Informe o 1º número para contagem: ")
+      leia(n1)
+      escreval("Informe o ultimo número para contagem: ")
+      leia(n2)
+
+    para a de n1 ate n2 passo 1 faca
+         escreval(a)
+    fimpara
+Fimalgoritmo

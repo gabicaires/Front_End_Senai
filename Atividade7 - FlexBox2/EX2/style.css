@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e8e7e0;
+    cursor: pointer;
+}
+.vantagens{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.icone{
+    text-align: center;
+}
+
+.formulario{
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: #e8e7e0;
+    font-size: large;
+}
+
+.input{
+    width: 100%;
+}
+
+button{
+    width: 150px;
+    background-color: black;
+    padding: 7px 5px;
+    color: white;
+}
+

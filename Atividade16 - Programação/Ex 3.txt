@@ -1,0 +1,18 @@
+Exercício 3: 
+
+Algoritmo "semnome"
+
+Var
+sexo: caractere
+
+Inicio
+      escreva("Informe seu sexo (mascolino(M) e feminino(F)): ")
+      leia(sexo)
+      
+      se ((sexo = "M") ou (sexo = "F")) entao
+         escreva("Sexo Valido")
+         senao
+         escreva("Sexo Invalido")
+      fimse
+
+Fimalgoritmo

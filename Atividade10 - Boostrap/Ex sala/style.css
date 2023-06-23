@@ -1,0 +1,43 @@
+header{
+    border: 2px solid red;
+}
+
+.email-telefone{
+    display: flex;
+    flex-basis: 200px;
+    border: 2px solid rgb(64, 207, 51);
+    justify-content: space-around;
+    
+}
+
+nav{
+    background-color: #021269;
+    
+}
+
+a{
+    color: white;
+}
+
+.container{
+
+}
+
+.inicio{
+    border: 2px solid black;
+    height: 550px;
+}
+
+.imagem-main{
+    position: absolute;
+}
+.texto{
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 30%;
+}
+
+.card{
+    display: flex;
+}

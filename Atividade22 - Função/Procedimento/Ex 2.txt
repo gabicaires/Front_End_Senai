@@ -1,0 +1,21 @@
+Exercício 2 - Procedimento
+
+algoritmo "semnome"
+var
+n1,n2: inteiro
+
+procedimento somar(numero1,numero2: inteiro)
+inicio
+      escreval("A soma entre os valores é: ", numero1 + numero2)
+fimprocedimento
+inicio
+     escreva("Informe um numero: ")
+     leia(n1)
+     
+     escreva("Informe outro numero: ")
+     leia(n2)
+     
+     somar(n1,n2)
+     somar(8,9)
+     somar(n1,10)
+fimalgoritmo

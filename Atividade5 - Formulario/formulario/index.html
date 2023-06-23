@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <Header>
+        <h1>Formulário</h1>
+
+    </Header>
+    <main>
+        <form action="redirecionamento.html" method="post">
+            <div class="dados-formulario">            
+                <div class="primeiro-lado">
+                    <div>
+                        <label for="nome"> Nome Completo</label>
+                        <input type="text" name="nome" id="nome" class="input-text">
+                    </div>
+                     
+                    <div>
+                        <label for="datanasc"> Data de Nascimento</label>
+                        <input type="date" name="date" id="datanasc" class="input-text">
+                    </div>
+
+                    <div>
+                        <label for="cpf"> CPF </label>
+                        <input type="number" name="cpf" id="cpf" maxlength="11" class="input-text">
+                    </div>
+
+                    <div>
+                        <label for="RG"> RG </label>
+                        <input type="number" name="RG" id="RG" class="input-text">
+                    </div>
+
+                    <div>
+                        <label for="celular"> Celular </label>
+                        <input type="number" name="celular" id="celular" class="input-text">
+                    </div>
+
+                                        
+                    <div>
+                        <label for="email"> Email </label>
+                        <input type="email" name="email" id="email" class="input-text">
+                    </div>
+
+                    <div>
+                        <label for="whatsapp"> Autorizo uso do whatsapp </label>
+                        <input type="checkbox" name="whatsapp" id="whatsapp">
+                    </div>
+                </div>
+
+                <div class="segundo-lado">
+                    <div>
+                        <label for="enderço"> Endereço </label>
+                        <input type="text" name="endereço" id="endereço" class="input-text">
+                    </div>
+                    
+                    <div>
+                        <label for="cidade"> Cidade </label>
+                        <input type="text" name="cidade" id="cidade" class="input-text">
+                    </div>
+  
+                    <div>
+                        <label for="profissão"> Profissão </label>
+                        <input type="text" name="profissão" id="profissão" class="input-text">
+                    </div>
+
+                    <div> 
+                        <label for="mae"> Nome da Mãe </label>
+                        <input type="text" name="mae" id="mae" class="input-text">
+                    </div>
+
+                    <div> 
+                        <label for="pai"> Nome da Pai </label>
+                        <input type="text" name="pai" id="pai" class="input-text">
+                    </div>
+
+                    <div>
+                        <p>Escolaridade</p>
+                        <select name="" id="" class="input-text">
+                            <option value="null">Selecione</option>
+                            <option value="">Ensino fundamental incompleto</option>
+                            <option value="">Ensino fundamental completo</option>
+                            <option value="">Ensino Médio incompleto</option>
+                            <option value="">Ensino Médio completo</option>
+                            <option value="">Ensino Superior incompleto</option>
+                            <option value="">Ensino Superior completo</option>
+                        </select>   
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Cadastrar" id="botao">
+                <input type="reset" value="Limpar Campo" id="botao">
+            </div>
+
+        </form>
+        
+    </main>
+    <footer>
+        <p>&copy;CairesGabs</p>
+    </footer>
+</body>
+</html>

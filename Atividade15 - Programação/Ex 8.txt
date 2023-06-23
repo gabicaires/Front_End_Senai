@@ -1,0 +1,21 @@
+Exercício 8:
+
+	Algoritmo "semnome"
+
+	Var
+	saldo, cheque: real
+
+
+	Inicio
+      		saldo<-500
+      		escreva("Seu saldo é: ", saldo)
+      		escreval()
+
+      		escreva("Informe o valor do cheque: ")
+      		leia(cheque)
+      
+      		saldo<- 500 + cheque
+
+      		escreva("Seu novo saldo é: ", saldo)
+      
+	Fimalgoritmo

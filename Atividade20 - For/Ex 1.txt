@@ -1,0 +1,12 @@
+Exercício 1:
+
+Algoritmo "semnome"
+
+Var
+   a: inteiro
+
+Inicio
+    para a de 1 ate 10 passo 1 faca
+         escreval(a)
+    fimpara
+Fimalgoritmo

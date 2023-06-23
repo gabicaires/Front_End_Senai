@@ -1,0 +1,23 @@
+Exercício 7:
+
+	Algoritmo "semnome"
+
+	Var
+	nome: caractere
+	idade: inteiro
+	salario: real
+
+
+	Inicio
+      		escreva("Informe seu nome: ")
+      		leia(nome)
+
+      		escreva("Informe sua idade: ")
+      		leia(idade)
+      
+      		escreva("Informe sua salario: ")
+      		leia(salario)
+
+      		escreva("Informações: ", nome, idade, salario)
+      
+	Fimalgoritmo

@@ -1,0 +1,27 @@
+Exercicio 2 - Função 
+
+Algoritmo "semnome"
+
+Var 
+	numero: inteiro 
+	numPar: caractere
+
+funcao parImpar(n: inteiro): caractere
+inicio
+	se(n % 2 = 0) entao
+	retorne "par"
+	senao
+	retorne "impar"
+	fimse
+
+fimfuncao
+
+Inicio
+	escreval("Informe um número: ")
+	leia(numero)
+
+	numPar<- parImpar(numero)
+
+	escreva("O numero informedo é: ", numPar)
+
+Fimalgoritmo

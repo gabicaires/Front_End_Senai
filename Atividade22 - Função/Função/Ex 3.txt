@@ -1,0 +1,34 @@
+Exercicio 3 - Função 
+
+Algoritmo "semnome"
+
+Var
+	n1, n2, soma, mult: inteiro
+
+funcao somar(a,b: inteiro): inteiro 
+
+var
+soma: inteiro
+
+inicio 
+	soma<- a + b
+	retorne soma
+
+fimfuncao
+
+Inicio
+	escreva("Informe um número: ")
+	leia(n1)
+
+	escreva("Informe outro número: ")
+	leia(n2)
+
+	soma<- somar(n1,n2)
+	
+	escreval("A soma entre os valores é: ", soma)
+
+	mult<- soma * 2
+
+	escreval("O dobro do resultado é: ", mult)
+
+fimalgoritmo

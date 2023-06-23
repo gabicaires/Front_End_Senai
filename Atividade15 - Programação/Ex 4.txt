@@ -1,0 +1,16 @@
+Exercício 4:
+
+	Algoritmo "semnome"
+
+	Var
+	f, c: real
+
+	Inicio
+      		escreva("Escreva a temperatura em Fahrenheit: ")
+      		leia(f)
+      
+      		c<- (5 * (F-32) / 9)
+      
+      		escreva("Essa temperatura em Celsius é: ", c)
+
+	Fimalgoritmo

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">titulo da pagina</h1>
+    <p id="paragrafo">vamos entender como o js funciona na web atraves do DOM</p>
+
+    <p class="p">paragrafo 1</p>
+    <p class="p">paragrafo 2</p>
+    <p class="p">paragrafo 3</p>
+    <p class="p">paragrafo 4</p>
+
+    <p id="paragrafo2">Estamos começando a entender</p>
+
+    <p class="p2">paragrafos exemplo 2</p>
+    <p class="p2">paragrafos exemplo 2</p>
+    <p class="p2">paragrafos exemplo 2</p>
+
+
+    <script>
+        var h1 = document.getElementById("titulo")
+        h1.style.color = "blue"
+
+        var p = document.getElementById('paragrafo')
+
+        var paragrafos = document.getElementsByClassName('p')
+
+        var paragrafo2 = document.querySelector("#paragrafo2")
+
+        var paragrafos2 = document.querySelectorAll('.p2')
+
+        paragrafos[0].innerHTML = "mudei o texto"
+        paragrafos[3].style.color = "red"
+        paragrafo2.style.backgroundColor = "aqua"
+        
+        
+    </script>
+</body>
+</html>

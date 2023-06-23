@@ -1,0 +1,65 @@
+Exercício 6:
+
+algoritmo "semnome"
+var
+   opcao: inteiro
+   planeta: caractere
+   pesoPlaneta, pesoPessoa: real
+inicio
+   escreval("Informe seu peso")
+   leia(pesoPessoa)
+
+   escreval("|---------------------------------------------------|")
+   escreval("|   Nº    |     Planetas   |    Gravidade Relativa  |")
+   escreval("|---------------------------------------------------|")
+   escreval("|   1     |     Mercúrio   |           0,36         |")
+   escreval("|   2     |      Vênus     |           0,88         |")
+   escreval("|   3     |      Marte     |           0,38         |")
+   escreval("|   4     |     Júpiter    |           2,64         |")
+   escreval("|   5     |     Saturno    |           1,15         |")
+   escreval("|   6     |      Urano     |           1,17         |")
+   escreval("--------------------------------------------------- |")
+   leia(opcao)
+
+   escolha(opcao)
+
+   caso 1
+      planeta<- "Mercúrio"
+      escreval("Planeta escolhido: ", planeta)
+      pesoPlaneta<- pesoPessoa/10 * 0.36
+      escreval("O seu peso em Mercúrio é: ", pesoPlaneta)
+
+   caso 2
+      planeta<- "Vênus"
+      escreval("Planeta escolhido: ", planeta)
+      pesoPlaneta<- pesoPessoa/10 * 0.88
+      escreval("O seu peso em Vênus é: ", pesoPlaneta)
+
+   caso 3
+      planeta<- "Marte"
+      escreval("Planeta escolhido: ", planeta)
+      pesoPlaneta<- pesoPessoa/10 * 0.38
+      escreval("O seu peso em Marte é: ", pesoPlaneta)
+
+   caso 4
+      planeta<- "Júpiter"
+      escreval("Planeta escolhido: ", planeta)
+      pesoPlaneta<- pesoPessoa/10 * 2.64
+      escreval("O seu peso em Júpiter é: ", pesoPlaneta)
+
+   caso 5
+      planeta<- "Saturno"
+      escreval("Planeta escolhido: ", planeta)
+      pesoPlaneta<- pesoPessoa/10 * 1.15
+      escreval("O seu peso em Saturno é: ", pesoPlaneta)
+
+   caso 6
+      planeta<- "Urano"
+      escreval("Planeta escolhido: ", planeta)
+      pesoPlaneta<- pesoPessoa/10 * 1.17
+      escreval("O seu peso em Urano é: ", pesoPlaneta)
+
+   fimescolha
+
+
+fimalgoritmo

@@ -1,0 +1,20 @@
+
+Exercício 2:
+
+	Algoritmo "semnome"
+
+	Var
+	n1, n2, soma: inteiro
+
+	Inicio
+      		escreva("Insira o primeiro numero: ")
+      		leia(n1)
+      
+     	 	escreva("Insira o segundo numero: ")
+      		leia(n2)
+      
+      		soma<- n1 + n2
+      
+      		escreva("A soma desses dois numeros é: ", soma)
+
+	Fimalgoritmo

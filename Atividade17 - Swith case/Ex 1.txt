@@ -1,0 +1,28 @@
+Exercício 1:
+
+algoritmo "semnome"
+
+var
+   opcao: caractere
+
+
+inicio
+   escreval("---Escolha seu sexo---")
+   escreval("F - Feminino")
+   escreval("M - Masolino")
+   escreval("Informe o seu sexo: ")
+   leia(opcao)
+
+   escolha(opcao)
+   caso "F"
+      escreval("Sexo Valido")
+
+   caso "M"
+      escreval("Sexo Valido")
+
+   outrocaso
+      escreval("Sexo Invalido")
+
+   fimescolha
+
+fimalgoritmo

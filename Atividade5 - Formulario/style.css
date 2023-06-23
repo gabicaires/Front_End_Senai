@@ -1,0 +1,56 @@
+/* Seletor universal: a pagina vai abrir da mesma forma em qualquer navegador */
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+
+}
+
+main{
+    border: 1px solid black;
+    width: 600px;
+    height: 470px;
+    margin: 0 auto; 
+}
+
+.dados-formulario{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.primeiro-lado div,
+.segundo-lado div{
+    margin-bottom: 20px;
+
+}
+
+.primeiro-lado input, 
+.segundo-lado input{
+    
+}
+
+ .input-text{
+    width: 100%;
+    padding: 5px;
+ }
+
+.primeiro-lado, 
+.segundo-lado{
+
+}
+
+.sexo{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.submit{
+    text-align: center;
+
+}

@@ -1,0 +1,14 @@
+Exercício 1: 
+
+	Algoritmo "semnome"
+
+	Var
+	n1: inteiro
+
+	Inicio
+      		escreva("Insira um numero: ")
+      		leia(n1)
+
+      		escreva("Esse foi o numero digitado: ", n1)
+
+	Fimalgoritmo

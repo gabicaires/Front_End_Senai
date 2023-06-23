@@ -1,0 +1,20 @@
+Exercício 3:
+
+Algoritmo "semnome"
+
+Var
+   a, b: inteiro
+
+
+Inicio
+   escreval("Informe um número: ")
+   leia(b)
+
+   a<- 1
+
+      repita
+         escreval(a)
+         a<- a + 1
+      ate(a >= b+1)
+
+Fimalgoritmo

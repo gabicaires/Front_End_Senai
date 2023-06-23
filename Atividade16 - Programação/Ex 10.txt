@@ -1,0 +1,26 @@
+Exercício 10:
+
+Algoritmo "semnome"
+
+Var
+   sexo: caractere
+   p, altura: real
+
+Inicio
+   escreva("Infome seu sexo (masculino(M) e feminino(F): ")
+   leia(sexo)
+
+   Escreva("Infome sua altura: ")
+   leia(altura)
+
+   se (sexo = "F") entao
+      p:= (62.1 * altura) - 44.7
+      escreva("Peso Ideal: ", p:5:2)
+   senao
+      se (sexo = "M") entao
+         p:=(72.7 * altura) - 58
+         escreva("Peso Ideal: ", p:5:2)
+      fimse
+   fimse
+
+Fimalgoritmo

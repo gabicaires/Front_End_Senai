@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <!-- Action - para onde os dados serão enviados quando o fomulario for submitado-->
+        <!-- Method - Como esses dados serão enviados podendo ser GET ou POST. Get manda os dados atraves da URL e Post manda os dados "escondidos". Na grande maioria dos casos vamos dar preferencia ao metodo post-->
+    
+        <form action="redirecionamento.html" method="post">
+            <!-- As tegs de formulario geralmente são feias com a teg imput. O atributo name é o que o backend vai recuperar para saber o que foi informado no campo -->
+
+            <!-- O label diz o que aquele cambo imput vai receber. O atributo for  -->
+            <!-- Existem atributos especificos para input EX: -->
+            <!--  -->
+            <div>
+                <label for="nome"> Nome </label> 
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label for="email"> Email </label> 
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="datanasc"> Data de Nascimento</label>
+                <input type="date" name="" id="datanasc">
+            </div>
+
+            <!-- Os campos radio tem uma particularidade. O atributo name é o que vai referenciar o mesmo grupo de radios. O valor que vai ser enviado ao backend é o do atributo value -->
+            <div>
+                <p> Sexo </p>
+                <label for="m">Maculino</label>
+                <input type="radio" name="genero" id="m" value="M">
+
+                <label for="f">Feminino</label>
+                <input type="radio" name="genero" id="f" value="F">
+            </div>
+
+            <!-- Select existe varias opções de escola. Name é o que o backend vai identificar esse camo e o que será enviado  -->
+            <div>
+                <P> Horario disponivel</P>
+                <select name="" id="">
+                    <option value="">Matutino</option>
+                    <option value="">Vespertino</option>
+                    <option value="">Noturno</option>
+                </select>
+            </div>
+
+            <div>
+                <p> Linguagem que domina</p>
+                <label for="">JavaScript</label>
+                <input type="checkbox" name="linguagem" id="js" value="js"> 
+
+                <label for="">Java</label>
+                <input type="checkbox" name="linguagem" id="java" value="java">
+
+                <label for="">PHP</label>
+                <input type="checkbox" name="linguagem" id="PHP" value="PHP">
+
+                <label for="">C#</label>
+                <input type="checkbox" name="linguagem" id="csharp" value="csharp">
+            </div>
+
+            <div>
+                <label for=""> Nova senha </label>
+                <input type="password" name="" id="" minlength="8">
+            </div>
+            
+            <div>
+                <label for=""> Confirmar senha </label>
+                <input type="password" name="" id="" minlength="8">
+            </div>
+
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+
+            <div>
+                <p>Fale sobre você</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+        </form>
+        <footer>
+            <p>&copy;CairesGabs</p>
+        </footer>
+    </body>
+</html>

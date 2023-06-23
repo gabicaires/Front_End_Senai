@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto+Mono:wght@100;400&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+div.calculadora{
+    width: 350px;
+    height: 350px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #90909090;
+    border-radius: 1rem;
+
+}
+h1{
+    text-align: center;
+    margin: 1rem;
+    color: white;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+label{
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+button{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #31292993;
+    color: white;
+}
+
+.botao{
+    width: 80%;
+}
+
+.operacao{
+    display: flex;
+    font-size: 15px;
+    gap: 5px;
+    flex-direction: column;
+}
+.operacao label{
+    font-size: 15px;
+}
+
+.operacao{}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

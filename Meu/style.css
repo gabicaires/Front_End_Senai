@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(img/Arvore.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+.container {
+    height: 1200px;      
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: #E3F2C1;
+}
+
+span{
+    background-color: rgb(25, 118, 36);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.box{
+    border: 5px solid rgb(25, 118, 36);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+.box-1{
+    background: url('img/saci.png');
+    background-size: cover;
+}
+
+.box-2{
+    background: url('img/cu.jpg');
+    background-size: cover;
+}
+
+.box-3{
+    background: url('img/boto.jpg');
+    background-size: cover;
+}
+
+.box-4{
+    background: url('img/vr.jpg');
+    background-size: cover;
+}
+.box-5{
+    background: url('img/mula.jpg');
+    background-size: cover;
+}
+.box-6{
+    background: url('img/iara.png');
+    background-size: cover;
+}
+.box-7{
+    background: url('img/boitata.jpg');
+    background-size: cover;
+}
+.box-8{
+    background: url('img/lobo.png');
+    background-size: cover;
+}
+
+.box:hover{
+    height: 400px;
+    transition: 0.4s;
+    background-size: cover;
+}
+
+.cor{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}

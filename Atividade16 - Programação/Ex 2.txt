@@ -1,0 +1,22 @@
+Exercício 2:
+
+Algoritmo "semnome"
+
+Var
+   n1, n2: inteiro
+
+Inicio
+   escreva("Informe o 1º número: ")
+   leia(n1)
+
+   escreva("Informe o 2º número ")
+   leia(n2)
+   
+   se (n1 > n2)entao
+      escreva("O 1º número é maior")
+      senao
+      escreva("O 2º número é maior")
+   fimse
+
+
+Fimalgoritmo

@@ -1,0 +1,26 @@
+Exercício 3:
+
+	Algoritmo "semnome"
+
+	Var
+	n1, n2, n3, n4, media: real
+
+	Inicio
+     		escreva("Insira o 1º numero: ")
+      		leia(n1)
+      
+      		escreva("Insira o 2º numero: ")
+      		leia(n2)
+      
+      		escreva("Insira o 3º numero: ")
+      		leia(n3)
+      
+      		escreva("Insira o 4º numero: ")
+      		leia(n4)
+      
+      		media<- (n1 + n2 + n3 + n4)/ 4
+      
+      		escreva("A media desses dois numeros é: ", media)
+
+
+	Fimalgoritmo

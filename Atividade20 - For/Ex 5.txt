@@ -1,0 +1,30 @@
+Exercício 5:
+
+algoritmo "semnome"
+
+var
+   a: inteiro
+   opcao:caractere
+inicio
+   escreval("informe a opção: ")
+   escreval("1 - Para contar de 1 ate 10")
+   escreval("2 - Para contar de 10 ate 1")
+   escreval("3 - sair")
+   leia(opcao)
+
+   escolha(opcao)
+   caso "1"
+      para a de 1 ate 10 passo 1 faca
+         escreval(a)
+      fimpara
+
+   caso "2"
+      para a de 10 ate 1 passo -1 faca
+         escreval(a)
+      fimpara
+
+   caso "3"
+      escreval("Até logo")
+
+   fimescolha
+fimalgoritmo

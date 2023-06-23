@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: rgb(247, 64, 177);
+}
+
+body{
+    background-color: rgb(243, 225, 239);
+}
+
+.box{
+    border: 5px solid rgb(206, 23, 136);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+span{
+    background-color: rgb(233, 179, 219);
+    padding: 5px;
+}
+
+.box:hover{
+    height: 250px;
+    transition: 0.4s;
+    background-size: cover;
+}
+
+.box-1{
+    background: url('Img/img1.jpg');
+    background-size: cover;
+}
+
+.box-2{
+    background: url('Img/img2.jpg');
+    background-size: cover;
+}
+
+.box-3{
+    background: url('Img/img3.jpg');
+    background-size: cover;
+}
+
+.box-4{
+    background: url('Img/img4.jpg');
+    background-size: cover;
+}
+
+.box-5{
+    background: url('Img/img5.jpg');
+    background-size: cover;
+}
+
+.box-6{
+    background: url('Img/img6.jpg');
+    background-size: cover;
+}
+
+.box-7{
+    background: url('Img/img7.jpg');
+    background-size: cover;
+}
+
+.box-8{
+    background: url('Img/img8.jpg');
+    background-size: cover;
+}
+
+.box-9{
+    background: url('Img/img9.jpg');
+    background-size: cover;
+}
+
+.box-10{
+    background: url('Img/img10.jpg');
+    background-size: cover;
+}
+.box-11{
+    background: url('Img/img11.jpg');
+    background-size: cover;
+}
+.box-12{
+    background: url('Img/img12.jpg');
+    background-size: cover;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+}
+
+footer{
+    text-align: center;
+}

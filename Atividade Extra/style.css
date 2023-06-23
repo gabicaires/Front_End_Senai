@@ -1,0 +1,10 @@
+*{
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+
+}

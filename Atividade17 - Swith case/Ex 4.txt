@@ -1,0 +1,65 @@
+Exercício 4: 
+
+algoritmo "semnome"
+var
+   opcao,qtd: inteiro
+   lanche: caractere
+   preco: real
+inicio
+   escreval("--------------Cardapio----------------")
+   escreval("100 Cachorro quete             R$1,10")
+   escreval("101 Baruru simples             R$1,30")
+   escreval("102 Baruru c/ ovo              R$1,50")
+   escreval("103 Hamburguer                 R$1,10")
+   escreval("104 Cheaseburguer              R$1,30")
+   escreval("105 Refrigerante               R$1,00")
+   leia(opcao)
+
+   escreval("Informe a quantidade")
+   leia(qtd)
+
+
+   escolha(opcao)
+
+   caso 100
+      lanche<- "Cachorro quete"
+      escreval("Lanche escolhido: ",lanche)
+      preco<- qtd * 1.10
+
+   caso 101
+      lanche<- "Baruru simples"
+      escreval("Lanche escolhido: ",lanche)
+      precoFinal<- qtd * 1.30
+
+   caso 102
+      lanche<- "Baruru c/ ovo"
+      escreval("Lanche escolhido: ",lanche)
+      preco<- qtd * 1.50
+
+   caso 103
+      lanche<- "Hamburguer"
+      escreval("Lanche escolhido: ",lanche)
+      preco<- qtd * 1.10
+
+   caso 104
+      lanche<- "Cheaseburguer"
+      escreval("Lanche escolhido: ",lanche)
+      preco<- qtd * 1.30
+
+   caso 105
+      lanche<- "Refrigerante"
+      escreval("Lanche escolhido: ",lanche)
+      preco<- qtd * 1.00
+
+
+   fimescolha
+   
+    limpatela
+   
+      escreval("----Resumo do pedido----")
+      escreval("Lanche: ",lanche)
+      escreval("Quantidade: ",qtd)
+      escreval("Valor: R$",preco:5:2)
+
+  fimalgoritmo
+

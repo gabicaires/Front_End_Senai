@@ -1,0 +1,16 @@
+Exercício 3:
+
+Algoritmo "semnome"
+
+Var
+   a, n: inteiro
+
+Inicio
+   escreva("Informe um número: ")
+   leia(n)
+   i <- 1
+   enquanto (i <= n) faca
+      escreva(i)
+      i <- i + 1
+   fimenquanto
+Fimalgoritmo

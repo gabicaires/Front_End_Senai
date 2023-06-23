@@ -1,0 +1,15 @@
+Exercício 3: 
+
+Algoritmo "semnome"
+
+Var
+   a, n1: inteiro
+
+Inicio
+      escreval("Informe até que número você deseja ir: ")
+      leia(n1)
+
+    para a de 1 ate n1 passo 1 faca
+         escreval(a)
+    fimpara
+Fimalgoritmo

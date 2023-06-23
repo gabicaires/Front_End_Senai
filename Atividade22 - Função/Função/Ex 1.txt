@@ -1,0 +1,22 @@
+Exercício 1 - Função 
+
+Algoritmo "semnome"
+
+var
+ola: caractere 
+
+funcao olaMundo(): caractere
+inicio 
+	retorne "Olá Mundo"
+
+fimfuncao
+
+Inicio 
+	
+	ola<- olaMundo()
+
+	escreval("O retorno da função foi: ", ola)
+
+	escreva(ola)
+
+fimalgoritmo

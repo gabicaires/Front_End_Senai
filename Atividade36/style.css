@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Shorelines Script;
+    src: url("fonte/shorelines_script/Shorelines\ Script\ Bold.otf");
+  }
+
+  @font-face {
+    font-family: betterlett;
+    src: url("fonte/betterlett/Betterlett.ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #617794;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    position: relative;
+    width: 300px;
+    margin-bottom: 3rem;
+}
+
+.card1:hover .descricao:hover {
+    opacity: 1;
+    height: 85%;
+}
+.card2 {
+    position: relative;
+    width: 300px;
+}
+
+.card2:hover .descricao:hover {
+    opacity: 1;
+    height: 85%;
+}
+
+.troca:hover{
+    opacity: 1;
+    height: 70%;
+}
+
+.descricao {
+    position: absolute;
+    height: 0;
+    background-color: aliceblue;
+    opacity: 0;
+    width: 245px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    top: -5%;
+}
+
+p{
+    font-family: fonte-one-piece-2;
+    font-weight: bolder;
+}
+
+section.cards img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Shorelines Script;
+}
+
+h3 {
+    text-align: center;
+}
+
+section.parallax1 img{
+    width: 100%;
+    height: 100%;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax1{
+    background-image: url(img/img1.jpg);
+}

@@ -1,0 +1,14 @@
+Exercicio 2:
+
+Algoritmo "semnome"
+
+Var
+   a: inteiro
+
+Inicio
+   a <- 10
+   enquanto (a >= 1) faca
+      escreval(a)
+      a <- a - 1
+   fimenquanto
+Fimalgoritmo

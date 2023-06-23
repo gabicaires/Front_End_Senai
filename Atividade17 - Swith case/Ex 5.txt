@@ -1,0 +1,32 @@
+Exercício 5:
+ 
+algoritmo "semnome"
+var
+   numero,v, operacao : inteiro
+inicio
+   escreval("Informe o número: ")
+   leia(numero)
+
+   se (numero % 2 = 0 )entao
+      escreval("Esse numero é par. Vamos soma-lo com 5")
+      v<- 1
+   senao
+      se(numero % 2 <> 0 )entao
+         escreval("Esse numero é ímpar. Vamos soma-lo com 8")
+         v<- 2
+      fimse
+   fimse
+
+   escolha(v)
+   caso 1
+      operacao<- numero + 5
+      escreval("O resultado dessa operação é: ", operacao)
+
+   caso 2
+      operacao<- numero + 8
+      escreval("O resultado dessa operação é: ", operacao)
+
+   fimescolha
+
+fimalgoritmo
+

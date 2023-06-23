@@ -1,0 +1,46 @@
+Exercício 5: 
+
+Algoritmo "semnome"
+
+Var
+   sexo: caractere
+   n1, n2, n3, n4, media: real
+
+Inicio
+   escreva("Infome seu seu sexo (masculino(M) e feminino(F): ")
+   leia(sexo)
+
+   escreva("Nota 1: ")
+   leia(n1)
+
+   escreva("Nota 2: ")
+   leia(n2)
+
+   escreva("Nota 3: ")
+   leia(n3)
+
+   escreva("Nota 4: ")
+   leia(n4)
+
+   media:= (n1 + n2 + n3 + n4)/4
+
+   escreval("Média: ", media)
+
+   se(media >= 6)entao
+      se (sexo = "F")entao
+         escreva("Cara aluna, seu resultado é: Aprovado")
+      senao
+         se (sexo = "M")entao
+            escreva("Caro aluno, seu resultado é: Aprovado")
+         fimse
+      fimse
+   senao
+      se (sexo = "F")entao
+         escreva("Cara aluna, seu resultado é: Reprovado")
+      senao
+         se (sexo = "M")entao
+            escreva("Caro aluno, seu resultado é: Reprovado")
+         fimse
+      fimse
+   fimse
+Fimalgoritmo

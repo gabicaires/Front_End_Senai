@@ -1,0 +1,20 @@
+Exercício 6:
+
+Algoritmo "semnome"
+
+Var
+a, b, area: real
+
+
+Inicio
+      escreva("Informe a altura: ")
+      leia(a)
+
+      escreva("Informe a base: ")
+      leia(b)
+
+      area<- (b * a) / 2
+
+      escreva("Aarea do triangulo é: ", area)
+      
+Fimalgoritmo

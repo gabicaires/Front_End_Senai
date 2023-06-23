@@ -1,0 +1,41 @@
+img{
+    width: 50vw;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+/* clamp(minimo, ideal, maximo) */
+/* max - pega o maior valor de dois parametros */
+/* min - Pega o menor valor de dois parametros */
+h1{
+    font-size: min(3vw, 25px);
+}
+
+p{
+    font-size: min(3vw, 25px);
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        color: red;
+    }
+
+    img{
+        border-radius: 20px;
+    }
+
+    p{
+        text-align: justify;
+    }
+    
+}
+
+@media screen and (min-width: 650px) {
+    p{
+        color: blue;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+}

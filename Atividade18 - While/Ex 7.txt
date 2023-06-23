@@ -1,0 +1,25 @@
+Exercício 7:
+
+algoritmo "semnome"
+
+var
+   n, r, soma: inteiro
+   
+inicio
+   n<-1
+   r<-0
+
+   enquanto (n <= 10) faca
+      escreval("Informe 10 numeros: ")
+      leia(n)
+      
+      r<- r + n
+
+
+      n<- n +1
+      
+   fimenquanto
+
+   escreval("A soma dos numeros é: ", r)
+
+fimalgoritmo

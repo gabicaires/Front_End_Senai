@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 17vh;
+}
+
+div.contato{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgb(226, 245, 217);
+}
+
+div.nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div.nav ul{
+    display: flex;
+    gap: 0.5rem;
+    list-style-type: none;
+    align-items: center;
+    height: 100px;
+}
+
+.nav img{
+    max-width: 25vw;
+    max-height: 13vh;
+    margin-top: 8px
+}
+
+
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+}

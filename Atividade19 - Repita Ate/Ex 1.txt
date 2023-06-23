@@ -1,0 +1,12 @@
+Exercícop 1:
+
+algoritmo "semnome"
+var
+   a: inteiro
+inicio
+   a<- 1
+   repita
+      escreval(a)
+      a<- a + 1
+   ate(a > 10)
+fimalgoritmo

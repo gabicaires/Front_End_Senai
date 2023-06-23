@@ -1,0 +1,17 @@
+Exercício 5:
+
+	Algoritmo "semnome"
+
+	Var
+	ano, idade: inteiro
+
+	Inicio
+      		escreva("Informe o ano em que você nasceu: ")
+      		leia(ano)
+      
+      		idade<- 2023 - ano
+      
+      		escreva("Sua idade é: ", idade)
+
+
+	Fimalgoritmo

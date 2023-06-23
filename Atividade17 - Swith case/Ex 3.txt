@@ -1,0 +1,49 @@
+Exercício 3:
+ 
+algoritmo "semnome"
+var
+   opcao, problema: caractere
+   a, b, operacao: real
+inicio
+   escreval("Informe o 1º numero: ")
+   leia(a)
+
+   escreval("Informe o 2º numero: ")
+   leia(b)
+
+   escreval("----O quer quer fazer?----")
+   escreval("1 - Soma")
+   escreval("2 - Subtração")
+   escreval("3 - Multiplicação")
+   escreval("4 - Divisão")
+   leia(opcao)
+
+   escolha(opcao)
+   caso "1"
+      problema<- "Soma"
+      escreval("Opção: ", problema)
+      operacao<- a + b
+      escreval("A soma é: ", operacao)
+
+   caso "2"
+      problema<- "Subtração"
+      escreval("Opção: ", problema)
+      operacao<- a - b
+      escreval("A subtração é: ", operacao)
+
+   caso "3"
+      problema<- "Multiplicação"
+      escreval("Opção: ", problema)
+      operacao<- a * b
+      escreval("A multiplicação é: ", operacao)
+
+   caso "4"
+      problema<- "Divisão"
+      escreval("Opção: ", problema)
+      operacao<- a / b
+      escreval("A divisão é: ", operacao)
+
+   fimescolha
+
+
+fimalgoritmo

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-escura: rgb(50, 50, 87);
+    --cor-clara: rgb(162, 162, 236);
+}
+
+body{
+
+}
+header{
+    text-align: center;
+    color: white;
+    margin-bottom: ;
+}
+
+main{
+    border: 1px solid black;
+    width: 80vw;
+    height: 40vw;
+    margin: 1rem auto;
+    padding: 1rem;
+    gap: 2rem;
+}
+.dados{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.dados label,p{
+    font-size: 1.5rem;
+}
+
+.dados input[type=text]{
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+
+.imagem img{
+    width: 30vh;
+}
+
+button{
+    width: 50%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto+Mono:wght@100;400&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto+Mono:wght@100;400&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-titulo);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top,  #01b752, #00a547); ;
+}
+
+.titulo h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1c5c1f;
+}
+
+.titulo h2{
+   color: #3a8d42;
+   font-size: 30px;
+}
+
+.titulo h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1rem;
+
+}
+
+.textos{
+    width: 500px;
+    text-align: center;
+    height: 600px;
+    background-color: white;
+    align-self: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: inset 0 0 9px 3px rgba(0,0,0,.25);
+}
+
+.imagem{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagem img{
+    border-radius: 40px;
+
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.informacoes ul{
+    display: flex;
+    flex-direction: column;
+    gap:1rem ;
+    list-style-position: inside;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    list-style-image: url('https://global-uploads.webflow.com/61b9e0dd381626819c8d4f83/62cef75c0262284af718645d_checked.webp');
+
+}
+
+
+.quero-participar{
+    margin-top: 3rem; 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+ 
+}
+
+.quero-participar button{
+    /* width: 80%; */
+    margin-top: 1rem;
+    background-color: #01a743;
+    border-color: #054d22;
+    padding: 5px 40px;
+    font-size: 30px;
+    border-radius: 2rem;
+    font-weight: bolder;
+    color: white;
+    border: 5px solid #054d22;
+    border-top: 2px solid #054d22;
+    border-left: 2px solid #054d22;
+    cursor: pointer;
+   
+}
+
+.quero-participar button:hover{
+    background-color: white;
+    color: #01a743;
+}
+
+#modal{
+    width: 350px;
+    border: none;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.7);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+#modal input{
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    border: 2px solid #40cf23;
+    box-shadow: 1px 1px 10px #4bee2a;
+    outline: none;
+    
+}
+
+#modal button{
+    background-color: #01a743;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+#modal button:hover{
+    background-color: white;
+    color: #054d22;
+    box-shadow: 1px 1px 10px #4bee2a;
+}
+
+#modal input{
+    position: relative;
+    
+}
+
+ /* #modal .labelInput{
+    position: absolute;
+    left: 20px;
+     
+    pointer-events: none;
+    transition: .5s;
+  
+}
+
+.input:focus ~ .labelInput{
+    top: -20px;
+} */
+
+/* #modal input:focus ~ label{
+    top: 18px;
+    font-size: 12px;
+} */ 
+
+
+/* CSS para ativar modal */
+
+#fade,#modal{
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+
+#fade{
+    position: fixed;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    z-index: 5;
+}
+
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+
+#modal.hide, #fade.hide{
+    opacity: 0;
+    pointer-events: none;
+}

@@ -1,0 +1,115 @@
+Exercício 4:
+
+public class Casa {
+    private int numQuartos;
+    private int numBanheiros;
+    private Cozinha cozinha;
+
+    public Casa(int numQuartos, int numBanheiros, Cozinha cozinha) {
+        this.numQuartos = numQuartos;
+        this.numBanheiros = numBanheiros;
+        this.cozinha = cozinha;
+    }
+
+    public int getNumQuartos() {
+        return numQuartos;
+    }
+
+    public void setNumQuartos(int numQuartos) {
+        this.numQuartos = numQuartos;
+    }
+
+    public int getNumBanheiros() {
+        return numBanheiros;
+    }
+
+    public void setNumBanheiros(int numBanheiros) {
+        this.numBanheiros = numBanheiros;
+    }
+
+    public Cozinha getCozinha() {
+        return cozinha;
+    }
+
+    public void setCozinha(Cozinha cozinha) {
+        this.cozinha = cozinha;
+    }
+}
+
+public class Cozinha {
+    private int numPias;
+    private int numArmarios;
+
+    public Cozinha(int numPias, int numArmarios) {
+        this.numPias = numPias;
+        this.numArmarios = numArmarios;
+    }
+
+    public int getNumPias() {
+        return numPias;
+    }
+
+    public void setNumPias(int numPias) {
+        this.numPias = numPias;
+    }
+
+    public int getNumArmarios() {
+        return numArmarios;
+    }
+
+    public void setNumArmarios(int numArmarios) {
+        this.numArmarios = numArmarios;
+    }
+}
+
+public class Quarto {
+    private int numCamas;
+    private int numComodas;
+
+    public Quarto(int numCamas, int numComodas) {
+        this.numCamas = numCamas;
+        this.numComodas = numComodas;
+    }
+
+    public int getNumCamas() {
+        return numCamas;
+    }
+
+    public void setNumCamas(int numCamas) {
+        this.numCamas = numCamas;
+    }
+
+    public int getNumComodas() {
+        return numComodas;
+    }
+
+    public void setNumComodas(int numComodas) {
+        this.numComodas = numComodas;
+    }
+}
+
+public class Banheiro {
+    private int numVasos;
+    private int numChuveiros;
+
+    public Banheiro(int numVasos, int numChuveiros) {
+        this.numVasos = numVasos;
+        this.numChuveiros = numChuveiros;
+    }
+
+    public int getNumVasos() {
+        return numVasos;
+    }
+
+    public void setNumVasos(int numVasos) {
+        this.numVasos = numVasos;
+    }
+
+    public int getNumChuveiros() {
+        return numChuveiros;
+    }
+
+    public void setNumChuveiros(int numChuveiros) {
+        this.numChuveiros = numChuveiros;
+    }
+}

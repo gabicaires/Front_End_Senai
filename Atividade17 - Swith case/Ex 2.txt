@@ -1,0 +1,53 @@
+Exercícios 2:
+
+algoritmo "semnome"
+var
+   opcao, professor: caractere
+   preco, hora: real
+inicio
+   escreval("----Escolha o nivel do preofessor----")
+   escreval("1 - Professor Nivel 1 - Hora/Aula = R$12,00")
+   escreval("2 - Professor Nivel 2 - Hora/Aula = R$17,00")
+   escreval("3 - Professor Nivel 3 - Hora/Aula = R$25,00")
+   leia(opcao)
+
+   escolha(opcao)
+   caso "1"
+      professor<- "Professor Nivel 1"
+      escreval("Professor escolhido: ", professor)
+      escreval("Quantas horas? ")
+      leia(hora)
+      preco<- hora * 12
+
+
+   caso "2"
+      professor<- "Professor Nivel 2"
+      escreval("Professor escolhido: ", professor)
+      escreval("Quantas horas? ")
+      leia(hora)
+      preco<- hora * 17
+
+   caso "3"
+      professor<- "Professor Nivel 3"
+      escreval("Professor escolhido: ", professor)
+      escreval("Quantas horas? ")
+      leia(hora)
+      preco<- hora * 25
+
+   fimescolha
+
+   limpatela
+
+   se(preco > 0) entao
+
+      escreval("----Pontos do Contrato----")
+      escreval("Professor: ", professor)
+      escreval("Horas: ", hora)
+      escreval("Valor: R$", preco:5:2)
+
+   senao
+      escreval("Opção invalida")
+   fimse
+
+
+fimalgoritmo
